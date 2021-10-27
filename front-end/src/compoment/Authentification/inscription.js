@@ -41,7 +41,7 @@ if(auth.authenticate){
         <div className="form-box">
         <h2 className="text-center mt-5 pt-4 connextion-title">S'IDENTIFIER</h2>    
           <div className="header-form">
-            <h4 className="text-primary text-center"><i className="fa fa-user-circle" style={{fontSize:"110px"}}></i></h4>
+            <h4 className="text-primary text-center"><i className="fa fa-user-circle" style={{fontSize:"110px", color:"black"}}></i></h4>
             <div className="image">
             </div>
           </div>
@@ -61,9 +61,8 @@ if(auth.authenticate){
 </div>
  <button type="submit" className="btn btn-secondary btn-block">LOGIN</button>
  <div className="message">
-<div><input type="checkbox" /> Remember ME</div>
- <div><a href="#">Forgot your password</a></div>
- <div><a href="/contact">S'inscription</a></div>
+ <div><a href="#" style={{ color:"black"}}>Forgot your password</a></div>
+ <div><a href="/contact"style={{ color:"black"}}>s'inscrire </a></div>
  </div>
    </form>
             <div className="social">
@@ -75,7 +74,7 @@ if(auth.authenticate){
         </div>
        </div>   
  
-  
+      
 
 
            

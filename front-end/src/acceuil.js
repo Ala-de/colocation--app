@@ -22,8 +22,8 @@ export default function Acceuil() {
     <img  src="https://www.vanupied.com/wp-content/uploads/68550354.jpg" alt="1" style={{marginTop:"100px",width:"200%"}}/>,
     <img  src="https://www.travaux.com/images/cms/original/ebcd4d3c-6a00-47d2-8165-6d9e192082af.jpeg" alt="2" style={{marginTop:"100px",width:"200%"}}/>  ,
     <img  src="" alt="3" style={{marginTop:"100px",width:"200%"}}/>  ,
-    <img  src="https://picsum.photos/800/303/?random" alt="4" style={{marginTop:"100px",width:"200%"}}/>  ,
-    <img src="https://picsum.photos/800/304/?random" alt="5" style={{marginTop:"100px",width:"200%"}}/>   ];
+    <img  src="https://picsum.photos/800/303/?random"  style={{marginTop:"100px",width:"200%"}}/>  ,
+    <img src="https://picsum.photos/800/304/?random"  style={{marginTop:"100px",width:"200%"}}/>   ];
   
     return (
         <div>

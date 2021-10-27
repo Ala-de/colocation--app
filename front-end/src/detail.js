@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux';
 import { useSelector } from 'react-redux';
 
 
-export default function Detail({id}) {
+export default function Detail(el,{id}) {
     
     const dispatch = useDispatch()
     const mapHouse = useSelector(state=>state.HouseStore.house)

@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken');
 
 module.exports={
-addUser:async(req,res)=>{
+addUser:async(req, res)=>{
     const nom = req.body.nom
     const prenom = req.body.prenom
     const email = req.body.email
@@ -26,38 +26,7 @@ addUser:async(req,res)=>{
     }
 },
 
-signIn:async(req,res)=>{
-    USER.findOne({email:req.body.email})
-    .exec((error,user)=>{
-        if(error){
-            return res.status(400).json({error}) }
-            if(user){
-            const comp= bcrypt.compare(req.body.password, user.password   )
-            if(comp)
-            {
-                    const token = jwt.sign({_id:user._id,role:user.role},'MEARNSECRET',{expiresIn:'1h'})
-                    const {_id, nom,prenom,email,password,message} = user
 
-                    res.status(200).json({
-
-                        token,
-                        user:{
-                            _id, nom,prenom,email,password,message
-                        }
-
-                    })
-                }else{
-                    return res.status(400).json({
-                        message:'Invalid Password'
-                    })
-                }
-
-            }else{
-                return res.status(400).json({message:'SomeThing went wrong !'})
-            }
-
-    })
-} ,
 
 getUsers:async(req,res)=>{
     

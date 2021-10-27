@@ -76,27 +76,13 @@ html {
     border: 9px solid #fff;
     border-radius: 50%;
     position: relative;
-    &:before {
-       content: "";
-       width: 108px;
-       height: 100px;
-       position: absolute;
-       border: 3px solid #fff;
-       border-width: 9px 0 0 0;
-       right: -55%;
-       bottom: -112px;
-       border-radius: 50%;
-    }
+   
  }
  .basic {
     text-align: center;
     font-size: 26px;
     color: #fff;
-    & span {
-       display: block;
-       text-align: center;
-       font-size: 22px;
-    }
+     
  }
  .detail {
     padding: 1px;
@@ -109,38 +95,18 @@ html {
     text-align: center;
     position: relative;
     padding: 1px;
-    &:before {
-       content: "";
-       position: absolute;
-       left: 0;
-       right: 0;
-       margin: 0 auto;
-       bottom: -10px;
-       width: 30px;
-       height: 3px;
-       background: #3bd881;
-    }
+   
  }
  h4 {
     position: relative;
     padding: 1px;
-    &:before {
-       content: "";
-       position: absolute;
-       left: 0;
-       bottom: 0;
-       width: 10px;
-       height: 2px;
-       background: #3bd881;
-    }
+    
  }
  p a {
     text-decoration: none;
     color: #000;
     font-size: 16px;
-    &:hover {
-       color: #888;
-    }
+   
  }
  .ball {
     display: block;

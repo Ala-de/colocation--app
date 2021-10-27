@@ -114,7 +114,7 @@ console.log("asasasas",getHousesById)*/}
 
 
 
-<Link to={`/detail/${el._id}`}  ><Button variant="secondary" className="button-header" style={{marginRight:"150px"}} onClick={() => {getOneHouse((el._id) )}}>  détail</Button></Link> 
+<Link to={`/detail`}  ><Button variant="secondary" className="button-header" style={{marginRight:"150px"}} onClick={() => {getHousesById((el._id) )}}>  détail</Button></Link> 
 
         
         
@@ -123,7 +123,7 @@ console.log("asasasas",getHousesById)*/}
 </div>                                                                                                                                                
 </div>
 </div>
-</div>git push --set-upstream origin master
+</div>
 </div>
 </div>))}</div>
 

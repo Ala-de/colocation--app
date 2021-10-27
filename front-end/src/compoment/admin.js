@@ -70,7 +70,7 @@ const deleteHou=(id)=>{
   console.log('eeeee',deleteHouse)
 }
 const formReset = () => {
-  setTitre("");
+  setTitre(""); 
   setDiscription("");
   setType("");
   setImage("");

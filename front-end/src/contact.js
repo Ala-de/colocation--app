@@ -1,8 +1,10 @@
 import React from 'react'
 import './App.css'
 import { useState} from 'react';
+
 import { useDispatch,useSelector } from 'react-redux'; 
 import  { register} from "./compoment/redux/action/userActions"
+import { useHistory } from 'react-router';
 export default function ContactForm() {
   const dispatch = useDispatch()
   const [nom,setNom]=useState('')
@@ -26,6 +28,9 @@ export default function ContactForm() {
     console.log(user)
   }
 
+
+
+
     return (
    <div className="Contact-Form">
      <section class="history-area">
@@ -48,7 +53,7 @@ export default function ContactForm() {
   <input type="password" placeholder="password"onChange={(e)=>{setPassword(e.target.value)}}/> 
   
 
-  <il><button className="btn-contact" onSubmit={useRegister}>Submit</button> </il></ul>
+  <il> <button className="btn-contact" onSubmit={useRegister} >  <a href="/Profile">Submit</a ></button>  </il></ul>
 </form>
   </div>
 

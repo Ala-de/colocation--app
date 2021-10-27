@@ -271,8 +271,9 @@ background-color: #df8a8b;}
 }
 .text-uppercase{
   color: #000000;
+  margin-right: -70px;
 }
-.container{    margin-right: -31px;}
+.container{    margin-right: -70px;}
 
 
 .authtification{background-color:white;}
@@ -285,7 +286,8 @@ body{
 }
 .connextion-title{
   font-size: 29px;
-  padding-top:0px
+  padding-top:0px;
+  color:#f13b3bc7;
 }
 .box-container{
   display:flex;
@@ -297,7 +299,7 @@ body{
   .form-box{
       width:380px;
       height:450px;
-      background-color:#df8a8b;
+      background-color: #f13b3bc7;
       padding:20px;
       display:flex;
       flex-direction:column;
@@ -1001,5 +1003,19 @@ img {
 .button-header {width: 133px;
     color:#000000;
     height: 61px;
-    background-color:darksalmon;
+    background-color:#df8a8b;
+}
+#jareb{
+  color: black;
+  font-size: 36px;
+  margin-bottom: 70px;
+  
+    margin: 10;
+    padding: 10;
+    list-style: none;
+
+
+}
+#habethalemaxi{
+  margin-bottom: -10px;
 }

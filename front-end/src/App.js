@@ -18,6 +18,7 @@ import Signup from './compoment/Authentification/inscription'
 import PrivetRoute from "./compoment/PrivetRoute"
 import Comentaire from './comentaire';
 import Contactti from'./contactt';
+import Profil from './Profile'
 function App() {
   return (
     <div className="App">
@@ -43,6 +44,7 @@ function App() {
       <Route  path="/sgininn" component={Signin } /> 
       <Route  path="/comentaire" component={Comentaire}/>
       <Route  path="/contactt" component= {Contactti}/>
+      <Route path="/profile" component={Profil}/>
       </div>
       <Footer/>
       </BrowserRouter>

@@ -17,16 +17,16 @@ export default function Footer() {
 
         <ul class="list-unstyled mb-0">
           <li>
-            <a href="#!" class="text-dark">Colocation À Tunis</a>
+            <Link to={`/offre`} class="text-dark" >Colocation À Tunis</Link> 
           </li>
           <li>
-            <a href="#!" class="text-dark">Colocation À Ben arous</a>
+          <Link to={`/offre`} class="text-dark">Colocation À Ben arous</Link> 
           </li>
           <li>
-            <a href="#!" class="text-dark">Colocation À Manouba</a>
+          <Link to={`/offre`}    class="text-dark">Colocation À Manouba</Link>
           </li>
           <li>
-            <a href="#!" class="text-dark">Colocation À  Ariana</a>
+          <Link to={`/offre`}  class="text-dark">Colocation À  Ariana</Link>
           </li>
         
           </ul>

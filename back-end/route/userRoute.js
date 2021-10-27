@@ -5,8 +5,5 @@ router.post('/addUser',user.addUser)
 router.post('/signin',user.signIn)
 router.delete('/deleteUser/:id',user.deleteUser)
 router.put('/updateUser/:id',user.updateUser)
-
-
-
 module.exports = router
 
