@@ -31,7 +31,7 @@ export default function Navigation() {
   <Navbar.Brand className="link"><Link to =""><GrFavorite/></Link>   </Navbar.Brand>
   <Navbar.Brand className="link"><Link to ="">   <CgDarkMode/></Link>   </Navbar.Brand> </div>
       
-                         
+               
     </Nav>
  
  </Navbar.Collapse>

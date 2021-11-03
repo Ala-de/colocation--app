@@ -21,6 +21,7 @@ export default function Detail(el,{id}) {
     
     return (
         <div>
+            
              
     
          
@@ -36,13 +37,8 @@ export default function Detail(el,{id}) {
 
           
 <div>
-            
-<img  src={mapHouse.image} class="card-img-offre" />
-<h1 class="card-title">{mapHouse.adresse}</h1> 
-<h1 class="card-title">{mapHouse.type}</h1>      
-<h1 class="card-title"> {mapHouse.titre}</h1> 
-<h1 class="card-title"> {mapHouse.description}</h1> 
 
+            
             </div>
         
          

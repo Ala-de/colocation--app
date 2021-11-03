@@ -42,9 +42,7 @@ export default function Footer() {
           <Link to='/quisommenous'class="text-dark">Qui sommes-nous?</Link> 
             
           </li>
-          <li>
-            <a href="#" class="text-dark">Publier une annonce</a>
-          </li>
+         
           <li>
             <a href="#!" class="text-dark">Locataire</a>
           </li>

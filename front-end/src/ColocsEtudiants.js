@@ -10,15 +10,12 @@ export default function ColocsEtudiants() {
       <img src={IMGcard6}/>
   </div>
   <div className="col-md-5 inner-container">
-    <h1>About Us</h1>
+    <h1>À PROPOS DE NOUS </h1>
     <p className="text">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit ducimus, enim inventore earum, eligendi nostrum pariatur necessitatibus eius dicta a voluptates sit deleniti autem error eos totam nisi neque voluptates sit deleniti autem error eos totam nisi neque.
+    Consultez les colocataires cherchant une chambre dans votre région et trouver la personne idéale pour votre colocation. Offrez leur votre chambre directement ou attendez qu'ils vous contactent, c'est votre choix!
+    Grâce à  Colocs vous apporte son aide afin que vous puissiez trouver votre colocation idéale.
     </p>
-    <div class="skills">
-      <span>Web Design</span>
-      <span>Photoshop & Illustrator</span>
-      <span>Coding</span>
-    </div>
+    
   </div>
  
 </div>

@@ -51,7 +51,7 @@ export default function Acceuil() {
                     <div class="col-lg-6 col-md-12 pr-0">
                     <div class="history-content">
                         <p class="title-bg-small primary-bg wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="500ms">
-                          Lorem ipsum</p>
+                          inscription </p>
                         <h2 class="column-title wow fadeInUp" >Inscrivez-vous
 gratuitement sur le site</h2>
                         <p className="colorparagrathe">
@@ -88,7 +88,7 @@ gratuitement sur le site</h2>
                       
                       <div class="history-content">
                         <p class="title-bg-small primary-bg wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="500ms">
-                          Lorem ipsum</p>
+                          NOS OFFRES</p>
                         <h2 class="column-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="700ms">Trouvez un logement étudiant et envoyez votre dossier en ligne</h2>
                         <p className="colorparagrathe">
                         Dégotez votre appartement pour étudiant sur Etuloge. L’interface disponible vous permet de visualiser un prix de loyer clair, de monter votre dossier de location en ligne et de le soumettre au propriétaire du logement. 
